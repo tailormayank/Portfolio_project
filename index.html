@@ -9,7 +9,6 @@
     <title>MY PORTFOLIO</title>
 </head>
 <body>
-    hello world
     <script src="script.js"></script>
     <div id="main">
         <nav id="desktopNav">
@@ -21,6 +20,22 @@
                     <li><a href="#projects">Projects</a></li>
                     <li><a href="#contect">Contect</a></li>
                 </ul>
+            </div>
+        </nav>
+        <nav id="hamburgerNav">
+            <div class="logo">Mayank Tailor</div>
+            <div class="hamburgerMenu">
+                <div class="hamburgerIcon" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="menuLinks">
+                    <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                    <li><a href="#exprience" onclick="toggleMenu()">Exprience</a></li>
+                    <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                    <li><a href="#contect" onclick="toggleMenu()">Contect</a></li>
+                </div>
             </div>
         </nav>
     </div>
