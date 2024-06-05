@@ -11,6 +11,7 @@
 <body>
     <script src="script.js"></script>
     <div id="main">
+        
         <nav id="desktopNav">
             <div class="logo">Mayank Tailor</div>
             <div>
@@ -22,6 +23,7 @@
                 </ul>
             </div>
         </nav>
+
         <nav id="hamburgerNav">
             <div class="logo">Mayank Tailor</div>
             <div class="hamburgerMenu">
@@ -38,6 +40,37 @@
                 </div>
             </div>
         </nav>
+
+        <section id="profile">
+            <div class="sectionPicContainor">
+                <img src="./assets/profile-pic.png" alt="Mayank-Tailor">
+            </div>
+            <div class="sectionText">
+                <p class="sectionTextP1">Hello, I'm</p>
+                <h1 class="title">Mayank Tailor</h1>
+                <p class="sectionTextP2">Frontend Developer</p>
+                <div class="btnContainer">
+
+                    <button class="btnBtnColor2" onclick="window.open('./assets/resume-example.pdf')">
+                    Download resume</button>
+
+                    <button class="btnBtnColor1" onclick="location.href = './#contect'">
+                        Contect Info.</button>
+                    
+                    <div class="socialsContailner">
+                        <img src="./assets/linkedin.png" 
+                        alt="My linkedin profile"
+                        class="icon" 
+                        onclick="location.href = 'https://linkedin.com/'">
+                        <img src="./assets/github.png" 
+                        alt="My github profile"
+                        class="icon" 
+                        onclick="location.href = 'https://github.com/'">
+                    </div>    
+
+                </div>
+            </div>
+        </section>
     </div>
 </body>
 </html>
